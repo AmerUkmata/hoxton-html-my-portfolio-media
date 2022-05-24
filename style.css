@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.Container{
+    background-color: #fff;
+}
+.header{
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    text-decoration: solid;
+
+}
+.header a{
+    text-decoration: solid;
+    color: black;
+}
+
+.myname{
+    float: left;
+    padding-left: 20px;
+}
+/*Work*/
+.Puna{
+    background-color: #ccc;
+    padding: 40px;
+}
+.Puna h1{
+    text-align: center;
+    color: #fff;
+}
+.carda{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 20px;  
+    box-shadow: 3px 3px 3px 3px black;
+}
+.cardb{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 20px;  
+    box-shadow: 3px 3px 3px 3px black;
+}
+.card p{
+    text-align: center;
+}
+/*Grup*/
+.hello{
+    background-color: #fff;
+}
+.hello h1{
+    text-align: center;
+}
+.hello div{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 20px;  
+    box-shadow: 3px 3px 3px 3px black;
+}
+/*footer*/
+footer{
+    background-color: gray;
+    padding: 20px;
+}
