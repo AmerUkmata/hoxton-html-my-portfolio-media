@@ -24,46 +24,40 @@ body{
 }
 /*Work*/
 .Puna{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
     background-color: #ccc;
     padding: 40px;
 }
-.Puna h1{
-    text-align: center;
-    color: #fff;
-}
 .carda{
-    display: grid;
-    grid-auto-flow: column;
-    align-items: center;
     padding: 20px;  
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 3px 3px 3px 3px gray;
+    text-align: center;
+    margin: 30px;
 }
 .cardb{
-    display: grid;
-    grid-auto-flow: column;
-    align-items: center;
     padding: 20px;  
-    box-shadow: 3px 3px 3px 3px black;
-}
-.card p{
+    box-shadow: 3px 3px 3px 3px  gray;
     text-align: center;
 }
 /*Grup*/
 .hello{
     background-color: #fff;
-}
-.hello h1{
     text-align: center;
-}
-.hello div{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+}
+.hello div{
     padding: 20px;  
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 3px 3px 3px 3px gray;
 }
 /*footer*/
 footer{
     background-color: gray;
     padding: 20px;
+}
+.video{
+    text-align: center;
 }
