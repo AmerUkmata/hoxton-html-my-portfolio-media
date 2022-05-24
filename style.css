@@ -32,12 +32,14 @@ body{
 }
 .carda{
     padding: 20px;  
+    background-color: #fff;
     box-shadow: 3px 3px 3px 3px gray;
     text-align: center;
     margin: 30px;
 }
 .cardb{
-    padding: 20px;  
+    padding: 20px; 
+    background-color: #fff; 
     box-shadow: 3px 3px 3px 3px  gray;
     text-align: center;
 }
@@ -48,6 +50,10 @@ body{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+    padding: 40px;
+}
+.hello h1{
+    text-align: center;
 }
 .hello div{
     padding: 20px;  
@@ -58,6 +64,8 @@ footer{
     background-color: gray;
     padding: 20px;
 }
+/**/
 .video{
     text-align: center;
+    padding: 20px;
 }
